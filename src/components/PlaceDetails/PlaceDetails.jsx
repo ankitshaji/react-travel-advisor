@@ -1,6 +1,8 @@
 import React from "react";
 
-//PlaceDetails Component -rfc snippet
-export default function PlaceDetails() {
+//PlaceDetails Component - anonymous arrow function
+const PlaceDetails = () => {
   return <h1>PlaceDetails</h1>;
-}
+};
+
+export default PlaceDetails;
